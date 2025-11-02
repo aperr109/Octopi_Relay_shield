@@ -3336,44 +3336,44 @@
 	)
 	(global_label "COM"
 		(shape input)
-		(at 229.87 74.93 180)
+		(at 240.03 74.93 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "5c4208cf-6b61-4bae-b63f-410fd62c9d09")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 222.8329 74.93 0)
+			(at 247.0671 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
 	)
 	(global_label "NC"
 		(shape input)
-		(at 229.87 72.39 180)
+		(at 240.03 72.39 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "7ff5d9e4-f408-46d9-9248-d39b082cc5fd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 224.2843 72.39 0)
+			(at 245.6157 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -3402,22 +3402,22 @@
 	)
 	(global_label "NO"
 		(shape input)
-		(at 229.87 77.47 180)
+		(at 240.03 77.47 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "941ef252-b0d4-4a25-8a7c-d68854503974")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 224.2238 77.47 0)
+			(at 245.6762 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -3485,12 +3485,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND2"
-			(at 135.89 78.74 0)
+		(property "Value" "GND1"
+			(at 138.43 74.9299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -3698,7 +3699,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 111.76 82.55 0)
 			(effects
 				(font
@@ -3837,7 +3838,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 150.876 81.534 90)
 			(effects
 				(font
@@ -3972,7 +3973,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 145.796 61.214 90)
 			(effects
 				(font
@@ -4039,7 +4040,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 148.844 63.754 90)
 			(effects
 				(font
@@ -4100,12 +4101,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND2"
-			(at 149.86 90.17 0)
+		(property "Value" "GND1"
+			(at 152.4 86.3599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -4166,12 +4168,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND2"
-			(at 171.45 90.17 0)
+		(property "Value" "GND1"
+			(at 173.99 86.3599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -4215,7 +4218,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x03")
-		(at 234.95 74.93 0)
+		(at 234.95 74.93 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4224,24 +4227,22 @@
 		(fields_autoplaced yes)
 		(uuid "c75070e6-a08e-4a8b-b4e7-63086584b23f")
 		(property "Reference" "J2"
-			(at 237.49 73.6599 0)
+			(at 234.95 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "Screw_Terminal_01x03"
-			(at 237.49 76.1999 0)
+			(at 234.95 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-3-5.0-H_1x03_P5.00mm_Horizontal"
 			(at 234.95 74.93 0)
 			(effects
 				(font
@@ -4311,7 +4312,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 101.854 81.534 90)
 			(effects
 				(font
@@ -4382,7 +4383,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
 			(at 193.04 64.77 0)
 			(effects
 				(font
@@ -4482,7 +4483,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 149.86 73.66 0)
 			(effects
 				(font
@@ -4561,7 +4562,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_5W_P12.70mm_Horizontal"
 			(at 160.02 77.47 0)
 			(effects
 				(font
@@ -4729,7 +4730,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x20_P2.54mm_Vertical"
 			(at 50.8 74.93 0)
 			(effects
 				(font

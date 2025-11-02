@@ -3370,44 +3370,44 @@
 	)
 	(global_label "COM"
 		(shape input)
-		(at 201.93 73.66 180)
+		(at 212.09 73.66 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "5c4208cf-6b61-4bae-b63f-410fd62c9d09")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 194.8929 73.66 0)
+			(at 219.1271 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
 	)
 	(global_label "NC"
 		(shape input)
-		(at 201.93 71.12 180)
+		(at 212.09 71.12 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "7ff5d9e4-f408-46d9-9248-d39b082cc5fd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 196.3443 71.12 0)
+			(at 217.6757 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -3436,22 +3436,22 @@
 	)
 	(global_label "NO"
 		(shape input)
-		(at 201.93 76.2 180)
+		(at 212.09 76.2 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "941ef252-b0d4-4a25-8a7c-d68854503974")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 196.2838 76.2 0)
+			(at 217.7362 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -3999,7 +3999,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND2"
+		(property "Value" "GND1"
 			(at 135.89 81.28 0)
 			(effects
 				(font
@@ -4048,7 +4048,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x03")
-		(at 207.01 73.66 0)
+		(at 207.01 73.66 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4057,24 +4057,22 @@
 		(fields_autoplaced yes)
 		(uuid "c75070e6-a08e-4a8b-b4e7-63086584b23f")
 		(property "Reference" "J2"
-			(at 209.55 72.3899 0)
+			(at 207.01 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "Screw_Terminal_01x03"
-			(at 209.55 74.9299 0)
+			(at 207.01 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type011_RT05503HBLC_1x03_P5.00mm_Horizontal"
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-3-5.0-H_1x03_P5.00mm_Horizontal"
 			(at 207.01 73.66 0)
 			(effects
 				(font
@@ -4214,7 +4212,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 135.89 64.77 0)
 			(effects
 				(font
@@ -4284,7 +4282,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND2"
+		(property "Value" "GND1"
 			(at 157.48 96.52 0)
 			(effects
 				(font
@@ -4359,7 +4357,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+		(property "Footprint" "Diode_THT:D_5W_P12.70mm_Horizontal"
 			(at 146.05 68.58 0)
 			(effects
 				(font
@@ -4627,7 +4625,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x20_P2.54mm_Vertical"
 			(at 50.8 74.93 0)
 			(effects
 				(font
